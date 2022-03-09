@@ -11,6 +11,14 @@
 		AA2EF36227D74C6E00CAA18B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2EF36127D74C6E00CAA18B /* ContentView.swift */; };
 		AA2EF36427D74C7000CAA18B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2EF36327D74C7000CAA18B /* Assets.xcassets */; };
 		AA2EF36727D74C7000CAA18B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2EF36627D74C7000CAA18B /* Preview Assets.xcassets */; };
+		AA2EF36F27D74EDF00CAA18B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2EF36E27D74EDF00CAA18B /* Product.swift */; };
+		AA2EF37227D7506100CAA18B /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2EF37127D7506100CAA18B /* ProductCard.swift */; };
+		AA2EF37527D7558300CAA18B /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2EF37427D7558300CAA18B /* CartButton.swift */; };
+		AA2EF37727D7585800CAA18B /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2EF37627D7585800CAA18B /* CartView.swift */; };
+		AA2EF37927D75B1C00CAA18B /* CardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2EF37827D75B1C00CAA18B /* CardManager.swift */; };
+		AA2EF37B27D75D9600CAA18B /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2EF37A27D75D9600CAA18B /* ProductRow.swift */; };
+		AA2EF37D27D8550C00CAA18B /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2EF37C27D8550C00CAA18B /* PaymentButton.swift */; };
+		AA2EF37F27D87E1700CAA18B /* PaymentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2EF37E27D87E1700CAA18B /* PaymentHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		AA2EF36127D74C6E00CAA18B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA2EF36327D74C7000CAA18B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA2EF36627D74C7000CAA18B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA2EF36E27D74EDF00CAA18B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		AA2EF37127D7506100CAA18B /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		AA2EF37427D7558300CAA18B /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		AA2EF37627D7585800CAA18B /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		AA2EF37827D75B1C00CAA18B /* CardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardManager.swift; sourceTree = "<group>"; };
+		AA2EF37A27D75D9600CAA18B /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		AA2EF37C27D8550C00CAA18B /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
+		AA2EF37E27D87E1700CAA18B /* PaymentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +67,14 @@
 		AA2EF35E27D74C6E00CAA18B /* SweaterShowDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AA2EF37327D7522000CAA18B /* Views */,
+				AA2EF37027D7505400CAA18B /* Components */,
 				AA2EF35F27D74C6E00CAA18B /* SweaterShowDemoApp.swift */,
-				AA2EF36127D74C6E00CAA18B /* ContentView.swift */,
+				AA2EF36D27D74ECF00CAA18B /* Models */,
 				AA2EF36327D74C7000CAA18B /* Assets.xcassets */,
 				AA2EF36527D74C7000CAA18B /* Preview Content */,
+				AA2EF37827D75B1C00CAA18B /* CardManager.swift */,
+				AA2EF37E27D87E1700CAA18B /* PaymentHandler.swift */,
 			);
 			path = SweaterShowDemo;
 			sourceTree = "<group>";
@@ -65,6 +85,34 @@
 				AA2EF36627D74C7000CAA18B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA2EF36D27D74ECF00CAA18B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA2EF36E27D74EDF00CAA18B /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA2EF37027D7505400CAA18B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AA2EF37127D7506100CAA18B /* ProductCard.swift */,
+				AA2EF37427D7558300CAA18B /* CartButton.swift */,
+				AA2EF37A27D75D9600CAA18B /* ProductRow.swift */,
+				AA2EF37C27D8550C00CAA18B /* PaymentButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AA2EF37327D7522000CAA18B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA2EF36127D74C6E00CAA18B /* ContentView.swift */,
+				AA2EF37627D7585800CAA18B /* CartView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +185,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2EF37D27D8550C00CAA18B /* PaymentButton.swift in Sources */,
+				AA2EF37F27D87E1700CAA18B /* PaymentHandler.swift in Sources */,
+				AA2EF37727D7585800CAA18B /* CartView.swift in Sources */,
 				AA2EF36227D74C6E00CAA18B /* ContentView.swift in Sources */,
 				AA2EF36027D74C6E00CAA18B /* SweaterShowDemoApp.swift in Sources */,
+				AA2EF37927D75B1C00CAA18B /* CardManager.swift in Sources */,
+				AA2EF37B27D75D9600CAA18B /* ProductRow.swift in Sources */,
+				AA2EF36F27D74EDF00CAA18B /* Product.swift in Sources */,
+				AA2EF37227D7506100CAA18B /* ProductCard.swift in Sources */,
+				AA2EF37527D7558300CAA18B /* CartButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
